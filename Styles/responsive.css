@@ -1,0 +1,201 @@
+@media screen and (max-width: 1180px) {
+    .container > div{
+        align-items: baseline;
+        justify-content: flex-end;
+        padding:  2rem;
+        padding-left:1rem ;
+    }
+    .container .milkshake{
+        padding-bottom: 4rem;
+    }
+    .products {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .products > div{
+        justify-content: center !important;
+    }
+    .products > div > span{
+        width: 100%
+    }
+    
+}
+
+@media screen and (max-width: 1092px) {
+    .container .milkshake{
+        padding-bottom: 2rem;
+    }
+} 
+@media screen and (max-width: 900px) {
+    .our-burger .buttons{
+       flex-direction: column;
+    }
+    .our-burger {
+        padding: 0;
+    } 
+    
+}
+
+@media screen and (max-width: 800px){
+    .information{
+        display: flex !important;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap: 5rem;
+    }
+    .information > div {
+        width: 100%;
+        border-right: none;
+        border-top: 2px solid rgba(255, 0, 0, .5);
+        padding-top: 2rem;
+    }
+    .hours,.hours .workingHours, .clock, .placeholder, .sandwich,.location, .contact, .location div:nth-of-type(2), .contact div:nth-of-type(2) {
+        display: block !important;
+    }
+   .discover-our-burger{
+       display: flex;
+       flex-direction: column-reverse;
+       align-items: center;
+       justify-content: center;
+   }
+   .discover-our-burger-image{
+    width: 40rem;
+    min-width: none;
+    }
+    .our-burger {
+        width: 100%;
+        min-width: none;
+        padding: 5rem 0;
+    }
+   .container > div h1 {
+    font-size: 2rem;
+    }
+    .container > div span {
+        
+        font-size: 1rem;
+    }
+    .map{
+        width: 100%
+    }
+    footer .reservation  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+}
+
+@media screen and (max-width: 750px){
+    
+    .black-footer-div1{
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+
+    }
+    .black-footer-div3{
+       
+        display: flex !important;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 0 4rem;
+    }
+    .black-footer-div3 dl{
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .products > div{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+   
+    .products > div {
+        padding: 0;
+    }
+    
+
+}
+
+@media screen and (max-width:600px){
+    .menu{
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+
+    }
+    .container{
+        width: 100%;
+    }
+    .container > div{
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    .container > div h1 {
+    
+        font-size: 3rem;
+    }
+    .container > div span {
+        width: 80%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    main, section, footer{
+        padding: 0 1rem;
+
+    }
+    header{
+     padding: 1rem;
+
+    }
+    .discover-our-burger-image{
+        width: 100%;
+        min-width: none;
+        
+    }
+    .organic-product h1{
+        font-size: 4rem;
+        text-align: center;
+    }
+    .organic-product p{
+        width: 90%;
+    }
+    .bestMeal h1 {
+       
+        font-size: 6rem;
+    }
+    .header-booking-button{
+       display: none;
+    }
+    header .telephone {
+        display: block;
+    }
+    .background{
+        background-size: contain;
+        background-position: center;
+    }
+   
+}
+@media screen and (max-width: 450px){
+    .header-booking-button a {
+        font-size: 1.2rem;
+    }
+   
+}
+
+@media screen and (min-width: 1450px){
+    .products > div:nth-of-type(1){
+        padding-right: 8rem;
+    }
+}
+

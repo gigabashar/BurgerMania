@@ -1,0 +1,132 @@
+@import "styles.css";
+
+nav {
+    position: fixed;
+    width: 100vw;
+    height: 0;
+    top: 8rem;
+    left: 0;
+    z-index: 100;
+    background-color: black;
+    opacity: 0.8;
+    visibility: hidden;
+    transition: height 1s ease-in;
+    overflow: hidden;
+    
+}
+.navactive{
+    height: 100%;
+    visibility: visible;
+    
+    
+}
+nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding-top: 10rem;
+}
+nav li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: white ;
+    transition: color 0.2s ease-in;
+}
+nav ul a:first-child li {
+    color: #FF2056;
+}
+nav li:hover {
+    color: #FF2056;
+}
+
+nav .icons {
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    font-size: 3rem;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem 4rem 1rem 3rem;
+    background-color: whitesmoke !important;
+    z-index: 1000;
+}
+
+.menuToggle {
+    position: relative;
+    width: 6rem;
+    height: 6rem;
+    background: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menuToggle::before {
+    content: "";
+    position: absolute;
+    width: 3.2rem;
+    height: 0.2rem;
+    background: #FF2056;
+    transform: translateY(-1rem);
+    box-shadow: 0 1rem #FF2056;
+    transition: 0.5s;
+  }
+  .menuToggle::after {
+    content: "";
+    position: absolute;
+    width: 3.2rem;
+    height: 0.2rem;
+    background: #FF2056;
+    transform: translateY(1rem);
+    transition: 0.5s;
+  }
+  header.active .menuToggle::before {
+    transform: translateY(0rem) rotate(45deg);
+    box-shadow: 0 0 #FF2056;
+  }
+  header.active .menuToggle::after {
+    transform: translateY(0rem) rotate(-45deg);
+  }
+
+#burger-mania-icon{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -8rem ;
+}
+#burger-mania-icon img{
+    width: 13rem;
+    
+   
+}
+
+.header-booking-button{
+    background-color: #FF2056;
+    height: 6rem;
+    padding: 2rem 10%;   
+    float: right;
+    cursor: pointer;
+    
+}
+
+.header-booking-button a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+}
+
+header .telephone {
+    color: #FF2056;
+    font-size: 3rem;
+    padding: 1.9rem 0;
+    float: right;
+    display: none;
+}

@@ -1,0 +1,233 @@
+@import "styles.css";
+
+main{
+    padding: 0 4rem;
+    
+}
+
+
+.bestMeal {
+    background: rgba(0,0,0,0.3) url(../Images/BackgroundBurgerMeal.jpg);
+    background-attachment: fixed;
+    min-height: 70rem;
+    gap: 3rem;
+}
+
+.bestMeal span {
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 2.7rem;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+
+}
+
+.bestMeal h1 {
+    font-family: 'Lora', serif;
+    font-size: 8rem;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.bestMeal div {
+    background-color: white;
+    opacity: 0.9;
+    height: 6rem;
+    padding: 1.55rem 5.5rem;
+    cursor: pointer;
+    
+}
+.bestMeal div a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #FF2157;
+   
+    
+}
+.bestMeal div:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+
+.information{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 1.5rem;
+    
+}
+.information img {
+    width: 3rem;
+    height: 3rem;
+}
+.hours .workingHours span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color:  #FF2157;
+}
+
+.hours .workingHours {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1rem; 
+    
+}
+.hours{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 1.8rem;
+    border-right: 1px solid #B6B6B6; 
+    
+}    
+.clock, .placeholder, .sandwich{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}    
+.clock{
+    grid-row: 1 / 3; 
+}   
+
+.location, .contact {
+    display: grid;
+   grid-template-columns: 20% 80%; 
+   
+
+} 
+.location{
+    border-right: 1px solid #B6B6B6;
+}
+.location div:nth-of-type(2), .contact div:nth-of-type(2) {
+    display: flex;
+    align-items: center; 
+}
+
+.location span, .contact span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    
+} 
+
+.discover-our-burger {
+    
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 10rem;
+   
+    
+    
+    
+}
+.discover-our-burger-image{
+    width: 40rem;
+    min-width: 31rem;
+    background-image: url(./Images/BurgerMagic.jpg);
+    height: 55rem; 
+    background-size: 100% 55rem;
+    transition: 1s ease-in;
+}
+
+
+
+.discover-our-burger img {
+   width: 100%;
+   height: 55rem;
+   
+}
+
+
+ .our-burger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 48rem;
+    min-width: 35rem;
+    padding: 5rem 0;
+
+
+} 
+
+
+
+.our-burger h2 {
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 2.7rem;
+    font-weight: 600;
+    
+
+}
+
+.our-burger h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
+    letter-spacing: normal;
+} 
+.our-burger p{
+    
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 3.1rem;
+    opacity: 0.9;
+
+}
+
+.our-burger .buttons{
+    display: flex;
+    gap: 1.5rem;
+  
+}
+
+
+.our-burger .buttons div{
+    background-color: #FF2056;
+    color: white;
+    height: 6rem;
+    text-align: center;
+    padding: 1.5rem 5rem;
+    color: white;
+    
+   
+
+}
+.our-burger .buttons div p{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    
+} 
+
+
+
+
+.our-burger .buttons div:nth-of-type(2){
+    color: #FF2056;
+    background-color: white;
+    border: 2px solid #FF2056;
+}
+
+.our-burger .buttons div:nth-of-type(1):hover{
+    cursor: pointer;
+    background-color: black;
+
+}
+
+.our-burger .buttons div:nth-of-type(2):hover{
+    cursor: pointer;
+    background-color: #FF2056;
+    color:white;
+}
+
+
+
+

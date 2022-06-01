@@ -1,0 +1,139 @@
+@import "styles.css";
+
+
+section{
+    padding: 0 4rem;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    
+}
+.container{
+    width: 25%;
+    height: 40rem;
+    overflow: hidden; 
+    
+}
+.container > div {
+    background: rgba(0,0,0,0.3) url(../Images/Milkshakes.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.container > div h1 {
+    
+    font-size: 3rem;
+}
+
+.container > div span {
+    
+    font-size: 1.5rem;
+}
+.menu .burgers {
+    background-image: url(../Images/Burger4.jpg);
+
+}
+
+.menu .veggie{
+    background-image: url(../Images/Tomato.jpg);
+    
+}
+.menu .fries{
+    background-image: url(../Images/Fries.jpg);
+    
+}
+
+.container > div:hover {
+     -webkit-transform: scale(1.1); 
+    transform: scale(1.1);
+    -webkit-transition: all 0.3s ease-in-out;
+    cursor: pointer; 
+    
+}
+
+.products{
+    padding: 0 4rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    margin-top: 9rem;
+    
+
+}
+
+.products > div {
+    flex: 0 1 50%;
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+    gap: 3rem;
+
+}
+.products > div:nth-of-type(1){
+    justify-content: flex-end;
+    
+}
+.products > div:nth-of-type(3){
+    justify-content: flex-end;
+}
+
+.products > div > span {
+   
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    line-height: 3.5rem;
+    font-weight: 300;
+    color: grey;
+}
+
+.organic-product{
+    background: rgba(0,0,0,0.3) url(../Images/nature.jpg);
+    background-attachment: fixed;
+    min-height: 30rem;
+    gap: 1rem;
+    margin-top: 10rem;
+}
+.organic-product h2{
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+
+}
+
+
+.organic-product h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 6rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+.organic-product p{
+    font-family:'Poppins', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    width: 70%;
+    line-height: 3rem;
+    text-align: center;
+    color: white;
+    text-align: center;
+}
+
