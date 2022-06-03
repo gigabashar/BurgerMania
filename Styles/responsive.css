@@ -11,6 +11,7 @@
     .products {
         flex-direction: column;
         flex-wrap: nowrap;
+        gap: 7rem;
     }
     .products > div{
         justify-content: center !important;

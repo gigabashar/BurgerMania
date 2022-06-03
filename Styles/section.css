@@ -81,7 +81,7 @@ section{
     display: flex;
     align-items: center;
     padding: 3rem;
-    gap: 3rem;
+    gap: 2rem;
 
 }
 .products > div:nth-of-type(1){
